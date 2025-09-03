@@ -6,7 +6,7 @@ const PrivacyPolicy: React.FC = () => {
       <header className="mb-12">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-zinc-900 dark:text-zinc-100 tracking-tight text-center mb-8">
           <span className="bg-gradient-to-br from-[#c517ff] to-[#2631f7] bg-clip-text text-transparent">
-            Buraro
+            Nexotype
           </span>{' '}
           <span className="text-zinc-900 dark:text-zinc-100">
             Privacy Policy
@@ -20,7 +20,7 @@ const PrivacyPolicy: React.FC = () => {
         </p>
         
         <p className="font-normal max-sm:text-sm sm:text-base dark:text-white text-black leading-relaxed">
-          Buraro is committed to safeguarding the privacy of visitors to our website. This Privacy Policy outlines how we collect, use, share, and protect personal information, in accordance with applicable data protection laws, including the General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA).
+          Nexotype is committed to safeguarding the privacy of visitors to our website. This Privacy Policy outlines how we collect, use, share, and protect personal information, in accordance with applicable data protection laws, including the General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA).
         </p>
 
         <div className="space-y-6">
@@ -127,7 +127,7 @@ const PrivacyPolicy: React.FC = () => {
               <li><strong>Right to Data Portability</strong>: You can request a copy of your data in a structured, machine-readable format.</li>
             </ul>
             <p className="font-normal max-sm:text-sm sm:text-base dark:text-white text-black mb-6">
-              To exercise these rights, please contact us at contact@buraro.com. We may require verification of your identity before processing your request.
+              To exercise these rights, please contact us at contact@nexotype.com. We may require verification of your identity before processing your request.
             </p>
 
             <h3 className="text-xl font-medium my-2 text-zinc-900 dark:text-zinc-100">

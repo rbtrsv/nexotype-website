@@ -4,17 +4,17 @@ import NavbarDownwards from '@/modules/main/components/NavbarDownwards/NavbarDow
 import Footer from '@/modules/main/components/Footer/Footer';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy - Buraro',
-  description: 'Learn how Buraro collects, uses, and protects your personal information. Our privacy policy explains your rights and our data practices in plain English.',
+  title: 'Privacy Policy - Nexotype',
+  description: 'Learn how Nexotype collects, uses, and protects your personal information. Our privacy policy explains your rights and our data practices in plain English.',
   openGraph: {
-    title: 'Privacy Policy - Buraro',
-    description: 'Learn how Buraro collects, uses, and protects your personal information.',
+    title: 'Privacy Policy - Nexotype',
+    description: 'Learn how Nexotype collects, uses, and protects your personal information.',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'Privacy Policy - Buraro',
-    description: 'Learn how Buraro collects, uses, and protects your personal information.',
+    title: 'Privacy Policy - Nexotype',
+    description: 'Learn how Nexotype collects, uses, and protects your personal information.',
   },
   robots: {
     index: true,

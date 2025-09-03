@@ -17,7 +17,7 @@ export const metadata: Metadata = generatePageMetadata({
   slug: 'blog/articles/routine-demo',
   type: 'article',
   publishDate: '2025-01-15',
-  author: 'Buraro Team',
+  author: 'Nexotype Team',
   keywords: ['routine', 'lifestyle', 'health', 'performance', 'supplements', 'energy', 'demo'],
 });
 
@@ -32,7 +32,7 @@ export default function RoutineDemoPage() {
           subtitle="Showcasing how our routine section components work with various content types, inspired by the Andrew Huberman daily routine format."
           imageUrl="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=center"
           imageAlt="Daily routine and wellness concept"
-          author="Buraro Team"
+          author="Nexotype Team"
           publishDate="January 15, 2025"
           categories={[
             { label: 'Energy', variant: 'energy' },

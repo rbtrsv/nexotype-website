@@ -3,13 +3,12 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import logoBuraroDark from '@/modules/main/images/buraro-default-monochrome-black.svg'
-import logoBuraroWhite from '@/modules/main/images/buraro-default-monochrome-white.svg'
+import logoNexotypeDark from '@/modules/main/images/nexotype-default-monochrome-black.svg'
+import logoNexotypeWhite from '@/modules/main/images/nextotype-default-monochrome-white.svg'
 import { Sun, MoonStar, Menu, X, ChevronDown, ChevronUp } from 'lucide-react';
 
 const navItems = [
   { name: 'Blog', link: '/blog' },
-  { name: 'Projects', link: '/projects' },
   {
     name: 'Health & Longevity',
     link: '#',
@@ -90,7 +89,7 @@ const NavbarDownwards: React.FC = () => {
     <div className='flex cursor-pointer items-center mr-3 sm:mr-4 md:mr-5 lg:mr-6'>
       <Link href='/' className=''>
         <Image
-          src={logoBuraroDark}
+          src={logoNexotypeDark}
           alt='logo'
           width={110}
           height={75}
@@ -98,7 +97,7 @@ const NavbarDownwards: React.FC = () => {
           priority
         />
         <Image
-          src={logoBuraroWhite}
+          src={logoNexotypeWhite}
           alt='logo'
           width={110}
           height={75}

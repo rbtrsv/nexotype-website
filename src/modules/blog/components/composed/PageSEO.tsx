@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import buraroDefaultImage from '@/modules/main/images/buraro-default.png';
+import nexotypeDefaultImage from '@/modules/main/images/nexotype-default.svg';
 import Favicon from '@/modules/main/public/favicon.ico';
 
 interface PageSEOProps {
@@ -38,21 +38,21 @@ export function generatePageMetadata({
     height: image.height || 630,
     alt: image.alt,
   } : {
-    url: `${BASE_URL}${buraroDefaultImage.src}`,
-    width: buraroDefaultImage.width,
-    height: buraroDefaultImage.height,
+    url: `${BASE_URL}${nexotypeDefaultImage.src}`,
+    width: nexotypeDefaultImage.width,
+    height: nexotypeDefaultImage.height,
     alt: title,
   };
 
   const pageUrl = `${BASE_URL}/${slug}`;
-  const pageTitle = `${title} | Buraro`;
+  const pageTitle = `${title} | Nexotype`;
 
   return {
     metadataBase: new URL(BASE_URL),
     title: pageTitle,
     description,
-    creator: author || 'Buraro Team',
-    publisher: 'Buraro',
+    creator: author || 'Nexotype Team',
+    publisher: 'Nexotype',
     category: keywords.join(', '),
     robots: {
       index: !noindex,
@@ -72,7 +72,7 @@ export function generatePageMetadata({
       description,
       type: type === 'article' ? 'article' : 'website',
       url: pageUrl,
-      siteName: 'Buraro',
+      siteName: 'Nexotype',
       locale: 'en_US',
       images: [pageImage],
       ...(type === 'article' && publishDate && author && {

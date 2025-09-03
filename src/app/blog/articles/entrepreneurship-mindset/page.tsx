@@ -18,7 +18,7 @@ export const metadata: Metadata = generatePageMetadata({
   slug: 'blog/articles/entrepreneurship-mindset',
   type: 'article',
   publishDate: '2023-10-15',
-  author: 'Buraro Team',
+  author: 'Nexotype Team',
   keywords: ['entrepreneurship', 'mindset', 'business', 'productivity', 'success', 'growth', 'leadership'],
 });
 
@@ -33,7 +33,7 @@ export default function EntrepreneurshipMindsetPage() {
           subtitle="Develop the mental frameworks and habits that successful entrepreneurs use to build thriving businesses and overcome challenges."
           imageUrl="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400&h=400&fit=crop&crop=center"
           imageAlt="Entrepreneurs collaborating on business strategy"
-          author="Buraro Team"
+          author="Nexotype Team"
           publishDate="October 15, 2023"
           categories={[
             { label: 'Entrepreneurship', variant: 'performance' },

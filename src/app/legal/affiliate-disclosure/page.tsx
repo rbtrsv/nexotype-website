@@ -4,16 +4,16 @@ import NavbarDownwards from '@/modules/main/components/NavbarDownwards/NavbarDow
 import Footer from '@/modules/main/components/Footer/Footer';
 
 export const metadata: Metadata = {
-  title: 'Affiliate Disclosure - Buraro',
+  title: 'Affiliate Disclosure - Nexotype',
   description: 'Learn about our affiliate partnerships and how we earn commissions from product recommendations. Transparent disclosure of our affiliate relationships with Amazon and other partners.',
   openGraph: {
-    title: 'Affiliate Disclosure - Buraro',
+    title: 'Affiliate Disclosure - Nexotype',
     description: 'Learn about our affiliate partnerships and how we earn commissions from product recommendations.',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'Affiliate Disclosure - Buraro',
+    title: 'Affiliate Disclosure - Nexotype',
     description: 'Learn about our affiliate partnerships and how we earn commissions from product recommendations.',
   },
   robots: {

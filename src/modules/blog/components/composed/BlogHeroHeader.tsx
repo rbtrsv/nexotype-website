@@ -14,7 +14,7 @@ const BlogHeroHeader: React.FC<BlogHeroHeaderProps> = ({
             {/* Title */}
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-zinc-900 dark:text-zinc-100 tracking-tight">
               <span className="bg-linear-to-br from-[#c517ff] to-[#2631f7] bg-clip-text text-transparent">
-                Buraro
+                Nexotype
               </span>{' '}
               <span className="text-zinc-900 dark:text-zinc-100">
                 Blog

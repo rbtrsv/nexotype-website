@@ -4,16 +4,16 @@ import NavbarDownwards from "@/modules/main/components/NavbarDownwards/NavbarDow
 import HeroSectionAnimated from "@/modules/main/components/HeroSectionAnimated/HeroSectionAnimated";
 import Footer from "@/modules/main/components/Footer/Footer";
 import Favicon from '@/modules/main/public/favicon.ico';
-import BuraroDefault from '@/modules/main/images/buraro-default.png';
+import NexotypeDefault from '@/modules/main/images/nexotype-default.svg';
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://www.buraro.com';
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://www.nexotype.com';
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: 'Fitness. Longevity. Lifestyle.',
   description: 'Optimize your health, extend your lifespan, and elevate your quality of life with cutting-edge strategies.',
-  creator: 'Buraro Team',
-  publisher: 'Buraro',
+  creator: 'Nexotype Team',
+  publisher: 'Nexotype',
   category: 'Health, Fitness, Longevity, Lifestyle, Wellness, Personal Development',
   robots: {
     index: true,
@@ -38,13 +38,13 @@ export const metadata: Metadata = {
     title: 'Fitness. Longevity. Lifestyle.',
     description: 'Optimize your health, extend your lifespan, and elevate your quality of life with cutting-edge strategies.',
     url: '/',
-    siteName: 'Buraro',
+    siteName: 'Nexotype',
     images: [
       {
-        url: BuraroDefault.src,
-        width: BuraroDefault.width,
-        height: BuraroDefault.height,
-        alt: 'Buraro',
+        url: NexotypeDefault.src,
+        width: NexotypeDefault.width,
+        height: NexotypeDefault.height,
+        alt: 'Nexotype',
       },
     ],
     locale: 'en_US',
@@ -54,12 +54,12 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Fitness. Longevity. Lifestyle.',
     description: 'Optimize your health, extend your lifespan, and elevate your quality of life with cutting-edge strategies.',
-    creator: '@buraro_com',
-    site: '@buraro_com',
-    images: [BuraroDefault.src],
+    creator: '@nexotype_com',
+    site: '@nexotype_com',
+    images: [NexotypeDefault.src],
   },
   keywords: ['Fitness', 'Longevity', 'Lifestyle', 'Health Solutions', 'Supplements', 'Personal Growth'],
-  authors: [{ name: 'Buraro Team' }],
+  authors: [{ name: 'Nexotype Team' }],
 };
 
 export const viewport: Viewport = {

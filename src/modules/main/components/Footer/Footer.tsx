@@ -64,7 +64,7 @@ export default function Footer() {
           ))}
         </div>
         <p className='text-center md:text-left text-xs leading-5 text-black dark:text-white'>
-          &copy; 2023 Buraro & Finpy Technologies. All rights reserved.
+          &copy; 2025 Buraro Technologies. All rights reserved.
         </p>
       </div>
     </footer>

@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://www.buraro.com/sitemap.xml',
+    sitemap: 'https://www.nexotype.com/sitemap.xml',
   };
 }
