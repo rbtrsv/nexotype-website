@@ -6,7 +6,7 @@ interface H3Props {
 }
 
 const H3: React.FC<H3Props> = ({ children, className = "" }) => (
-  <h3 className={`text-xl font-medium my-2 ${className}`}>{children}</h3>
+  <h3 className={`text-lg md:text-xl font-medium mt-5 mb-3 ${className}`}>{children}</h3>
 );
 
 export default H3;
