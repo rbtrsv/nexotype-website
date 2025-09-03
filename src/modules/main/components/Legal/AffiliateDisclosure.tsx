@@ -38,7 +38,7 @@ const AffiliateDisclosure: React.FC = () => {
             Important Notice
           </p>
           <p className="font-normal max-sm:text-sm sm:text-base dark:text-white text-black">
-            <strong>As an Amazon Associate I earn from qualifying purchases.</strong> This website contains affiliate links to products and services from various partners.
+            <strong>As an Amazon Associate, we earn from qualifying purchases.</strong> This website contains affiliate links to products and services from various partners.
           </p>
         </div>
       </div>

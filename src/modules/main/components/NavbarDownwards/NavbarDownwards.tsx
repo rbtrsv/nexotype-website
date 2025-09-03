@@ -7,8 +7,20 @@ import logoNexotypeDark from '@/modules/main/images/nexotype-default-monochrome-
 import logoNexotypeWhite from '@/modules/main/images/nextotype-default-monochrome-white.svg'
 import { Sun, MoonStar, Menu, X, ChevronDown, ChevronUp } from 'lucide-react';
 
-const navItems = [
+interface NavItem {
+  name: string;
+  link: string;
+  subItems?: {
+    name: string;
+    link: string;
+  }[];
+}
+
+const navItems: NavItem[] = [
   { name: 'Blog', link: '/blog' },
+  // IMPORTANT: DO NOT DELETE - These sections are temporarily disabled but may be re-enabled in the future
+  // Health & Longevity and Lifestyle & Growth navigation items preserved below:
+  /*
   {
     name: 'Health & Longevity',
     link: '#',
@@ -29,6 +41,7 @@ const navItems = [
       { name: 'Lifelong Learning', link: '/lifelong-learning' },
     ],
   },
+  */
 ];
 
 const NavbarDownwards: React.FC = () => {
@@ -91,17 +104,17 @@ const NavbarDownwards: React.FC = () => {
         <Image
           src={logoNexotypeDark}
           alt='logo'
-          width={110}
-          height={75}
-          className='block cursor-pointer w-[100px] sm:w-[105px] md:w-[110px] lg:w-[110px] xl:w-[110px] 2xl:w-[115px] dark:hidden'
+          width={120}
+          height={82}
+          className='block cursor-pointer w-[110px] sm:w-[115px] md:w-[120px] lg:w-[125px] xl:w-[125px] 2xl:w-[130px] dark:hidden'
           priority
         />
         <Image
           src={logoNexotypeWhite}
           alt='logo'
-          width={110}
-          height={75}
-          className='hidden cursor-pointer w-[100px] sm:w-[105px] md:w-[110px] lg:w-[110px] xl:w-[110px] 2xl:w-[115px] dark:block'
+          width={120}
+          height={82}
+          className='hidden cursor-pointer w-[110px] sm:w-[115px] md:w-[120px] lg:w-[125px] xl:w-[125px] 2xl:w-[130px] dark:block'
           priority
         />
       </Link>
