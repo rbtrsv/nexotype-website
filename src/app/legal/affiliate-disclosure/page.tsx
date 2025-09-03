@@ -26,7 +26,7 @@ export default function AffiliateDisclosurePage() {
   return (
     <div className='flex flex-col min-h-screen'>
       <NavbarDownwards />
-      <div className='grow pt-28'>
+      <div className='grow pt-20 sm:pt-24 md:pt-28'>
         <AffiliateDisclosure />
       </div>
       <Footer />
