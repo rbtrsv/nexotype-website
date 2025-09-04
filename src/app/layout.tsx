@@ -21,6 +21,11 @@ export default function RootLayout({
             `,
           }}
         />
+        {/* Theme color for browser UI - Safari status bar, address bar */}
+        <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
+        <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+        <meta name="color-scheme" content="light dark" />
+        
         {/* Impact.com affiliate network site verification */}
         <meta name='impact-site-verification' content='30029652-c46b-468f-a1a7-49fb49800a1f' />
       </head>
