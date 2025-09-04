@@ -21,7 +21,7 @@ export default function RootLayout({
             `,
           }}
         />
-        {/* Theme color for browser UI - Safari status bar, address bar */}
+        {/* Theme color for browser UI */}
         <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
         <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
         <meta name="color-scheme" content="light dark" />
