@@ -46,7 +46,7 @@ const BlogCategoryTabs: React.FC<BlogCategoryTabsProps> = ({
   const isAllSelected = selectedCategories.length === 0;
 
   // Define featured categories (always visible)
-  const featuredCategories = ['Lifestyle', 'Health', 'Demo'];
+  const featuredCategories = ['Lifestyle', 'Health', 'Supplements'];
   const additionalCategories = allCategories.filter(cat => !featuredCategories.includes(cat));
   
   // Dropdown state

@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 
 // Internal subcomponents for AdaptableSection
 interface TimeIndicatorProps {
@@ -72,7 +72,7 @@ interface ImageLeftSectionProps {
   imageAlt: string;
   timeIndicator?: string;
   timeColor?: 'yellow' | 'green' | 'blue' | 'purple' | 'orange';
-  title: string;
+  title: React.ReactNode;
   children: React.ReactNode;
   className?: string;
 }
@@ -100,7 +100,8 @@ const ImageLeftSection: React.FC<ImageLeftSectionProps> = ({
                   alt={imageAlt}
                   width={400}
                   height={400}
-                  className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+                  className="h-full w-full object-cover transition-transform duration-300 hover:scale-105 pointer-events-none select-none"
+                  draggable={false}
                   priority={false}
                 />
               </div>

@@ -27,11 +27,19 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   {
+    title: "6 Supplements Proven to Increase Testosterone",
+    slug: "testosterone-supplements-proven",
+    summary: "Evidence-based natural supplements that boost testosterone through specific biological mechanisms, with dosages, research, and where to buy.",
+    publishDate: "2025-01-06",
+    categories: ["Supplements", "Health", "Performance"],
+    href: "/blog/articles/testosterone-supplements-proven"
+  },
+  {
     title: "Daily Routine Components Demo",
     slug: "routine-demo", 
     summary: "Explore our new routine section components with interactive examples and content, inspired by evidence-based optimization strategies.",
     publishDate: "2025-01-15",
-    categories: ["Lifestyle", "Demo"],
+    categories: ["Lifestyle"],
     href: "/blog/articles/routine-demo"
   },
   {
@@ -58,7 +66,7 @@ export default async function BlogPage({
 }) {
   const resolvedSearchParams = await searchParams;
   const selectedCategories = resolvedSearchParams.categories ? resolvedSearchParams.categories.split(',') : [];
-  const allCategories = ['Lifestyle', 'Demo', 'Longevity', 'Health', 'Fitness', 'Entrepreneurship', 'Productivity', 'Wellness'];
+  const allCategories = ['Lifestyle', 'Longevity', 'Health', 'Fitness', 'Supplements', 'Performance', 'Entrepreneurship', 'Productivity', 'Wellness'];
 
   return (
     <div className="flex flex-col min-h-screen">
