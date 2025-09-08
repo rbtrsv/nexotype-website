@@ -4,6 +4,12 @@ import NavbarDownwards from '@/modules/main/components/NavbarDownwards/NavbarDow
 import Footer from '@/modules/main/components/Footer/Footer';
 import ashwagandhaImage from './images/Ashwagandha.jpeg';
 import tongkatAliImage from './images/Tongkat Ali.jpeg';
+import fadogiaAgrestisImage from './images/Fadogia Agrestis.jpeg';
+import mucunaPruriensImage from './images/Mucuna Pruriens.jpeg';
+import boronImage from './images/Boron.jpeg';
+import astaxanthinImage from './images/Astaxanthin.jpeg';
+import zincImage from './images/Zinc.jpeg';
+import supplementsMixImage from './images/Supplements Mix.jpeg';
 import ImageLeftSection from '@/modules/blog/components/composed/ImageLeftSection';
 import SimpleSection from '@/modules/blog/components/composed/SimpleSection';
 import AlternativeArticleHeader from '@/modules/blog/components/composed/AlternativeArticleHeader';
@@ -33,7 +39,7 @@ export default function TestosteroneSupplementsPage() {
         <AlternativeArticleHeader
           title="7 Supplements Proven to Increase Testosterone"
           subtitle="Evidence-based natural compounds that boost testosterone through specific biological mechanisms, backed by clinical research and real-world results."
-          imageUrl="https://images.unsplash.com/photo-1594736797933-d0c1ac717de8?w=400&h=400&fit=crop&crop=center"
+          imageUrl={supplementsMixImage.src}
           imageAlt="Natural supplements and herbs for testosterone optimization"
           author="Nexotype Team"
           publishDate="January 6, 2025"
@@ -67,7 +73,7 @@ export default function TestosteroneSupplementsPage() {
         <ImageLeftSection
           imageUrl={ashwagandhaImage.src}
           imageAlt="Ashwagandha KSM-66 root extract supplement"
-          title={<><LinkComponent href="https://amazon.com/dp/B077SBJ24Z/ref=nosim?tag=burarotechnol-20" className="text-[#9f55f9] underline transition-all duration-200">Ashwagandha KSM-66</LinkComponent>: The Stress-Fighting Testosterone Booster</>}
+          title={<><LinkComponent href="https://amzn.to/4mUKu6V" className="text-[#9f55f9] underline transition-all duration-200">Ashwagandha KSM-66</LinkComponent>: The Stress-Fighting Testosterone Booster</>}
         >
           <Text>
             <strong>Mechanism:</strong> Ashwagandha works by reducing cortisol, your primary stress hormone 
@@ -98,7 +104,7 @@ export default function TestosteroneSupplementsPage() {
         <ImageLeftSection
           imageUrl={tongkatAliImage.src}
           imageAlt="Tongkat Ali root extract natural testosterone booster"
-          title={<><LinkComponent href="https://amazon.com/dp/B07RV2SJ9S/ref=nosim?tag=burarotechnol-20" className="text-[#9f55f9] underline transition-all duration-200">Tongkat Ali</LinkComponent>: The Free Testosterone Liberator</>}
+          title={<><LinkComponent href="https://amzn.to/4gaynjn" className="text-[#9f55f9] underline transition-all duration-200">Tongkat Ali</LinkComponent>: The Free Testosterone Liberator</>}
         >
           <Text>
             <strong>Mechanism:</strong> Tongkat Ali works through two pathways: it reduces SHBG (sex hormone 
@@ -132,9 +138,9 @@ export default function TestosteroneSupplementsPage() {
         </ImageLeftSection>
 
         <ImageLeftSection
-          imageUrl="https://images.unsplash.com/photo-1576158114131-490c594ecccf?w=400&h=400&fit=crop&crop=center"
+          imageUrl={fadogiaAgrestisImage.src}
           imageAlt="Fadogia Agrestis stem extract natural testosterone supplement"
-          title={<><LinkComponent href="https://amzn.to/3VA18wm" className="text-[#9f55f9] underline transition-all duration-200">Fadogia Agrestis</LinkComponent>: The LH Stimulator</>}
+          title={<><LinkComponent href="https://amzn.to/3V99zia" className="text-[#9f55f9] underline transition-all duration-200">Fadogia Agrestis</LinkComponent>: The LH Stimulator</>}
         >
           <Text>
             <strong>Mechanism:</strong> Fadogia Agrestis works by directly stimulating luteinizing hormone (LH) production 
@@ -170,9 +176,9 @@ export default function TestosteroneSupplementsPage() {
         </ImageLeftSection>
 
         <ImageLeftSection
-          imageUrl="https://images.unsplash.com/photo-1628773822503-930a7eaecf80?w=400&h=400&fit=crop&crop=center"
+          imageUrl={mucunaPruriensImage.src}
           imageAlt="Mucuna Pruriens velvet bean natural L-DOPA supplement"
-          title={<><LinkComponent href="https://amazon.com/dp/B01B9EJEHY/ref=nosim?tag=burarotechnol-20" className="text-[#9f55f9] underline transition-all duration-200">Mucuna Pruriens</LinkComponent>: The Prolactin Suppressor</>}
+          title={<><LinkComponent href="https://amzn.to/46fbZRD" className="text-[#9f55f9] underline transition-all duration-200">Mucuna Pruriens</LinkComponent>: The Prolactin Suppressor</>}
         >
           <Text>
             <strong>Mechanism:</strong> Mucuna Pruriens contains natural L-DOPA, which reduces prolactin 
@@ -207,9 +213,9 @@ export default function TestosteroneSupplementsPage() {
         </ImageLeftSection>
 
         <ImageLeftSection
-          imageUrl="https://images.unsplash.com/photo-1584308972272-9e4e7685e80f?w=400&h=400&fit=crop&crop=center"
+          imageUrl={boronImage.src}
           imageAlt="Boron mineral supplement for testosterone optimization"
-          title={<><LinkComponent href="https://amazon.com/dp/B01M6ZAJZ1/ref=nosim?tag=burarotechnol-20" className="text-[#9f55f9] underline transition-all duration-200">Boron</LinkComponent>: The Estrogen Blocker</>}
+          title={<><LinkComponent href="https://amzn.to/4nk8fVx" className="text-[#9f55f9] underline transition-all duration-200">Boron</LinkComponent>: The Estrogen Blocker</>}
         >
           <Text>
             <strong>Mechanism:</strong> Boron works through two critical pathways: it reduces SHBG (freeing 
@@ -245,9 +251,9 @@ export default function TestosteroneSupplementsPage() {
         </ImageLeftSection>
 
         <ImageLeftSection
-          imageUrl="https://images.unsplash.com/photo-1576671081837-49000212a370?w=400&h=400&fit=crop&crop=center"
+          imageUrl={astaxanthinImage.src}
           imageAlt="Astaxanthin red algae antioxidant for Leydig cell protection"
-          title={<><LinkComponent href="https://amazon.com/dp/B075M6T4ZV/ref=nosim?tag=burarotechnol-20" className="text-[#9f55f9] underline transition-all duration-200">Astaxanthin</LinkComponent>: The Leydig Cell Protector</>}
+          title={<><LinkComponent href="https://amzn.to/4maKBdp" className="text-[#9f55f9] underline transition-all duration-200">Astaxanthin</LinkComponent>: The Leydig Cell Protector</>}
         >
           <Text>
             <strong>Mechanism:</strong> Astaxanthin is a unique antioxidant that specifically protects 
@@ -280,12 +286,19 @@ export default function TestosteroneSupplementsPage() {
             cellular health. It's particularly valuable for active men who generate more oxidative stress.
           </Text>
 
+          <Text>
+            <strong>Why <LinkComponent href="https://amzn.to/4maKBdp" className="text-[#9f55f9] underline transition-all duration-200">NUTREX HAWAII BioAstin</LinkComponent>:</strong> This Hawaiian-grown astaxanthin is farm-direct 
+            from clean Pacific waters, ensuring maximum potency and purity. At 12mg per capsule, it delivers 
+            therapeutic doses without synthetic additives. The controlled cultivation process produces higher 
+            concentrations of bioactive compounds compared to cheaper alternatives sourced from polluted waters.
+          </Text>
+
         </ImageLeftSection>
 
         <ImageLeftSection
-          imageUrl="https://images.unsplash.com/photo-1515516089376-88db1e26e9c0?w=400&h=400&fit=crop&crop=center"
+          imageUrl={zincImage.src}
           imageAlt="Zinc mineral supplement essential for testosterone synthesis"
-          title={<><LinkComponent href="https://amazon.com/dp/B07D8QKZQH/ref=nosim?tag=burarotechnol-20" className="text-[#9f55f9] underline transition-all duration-200">Zinc</LinkComponent>: The Foundation Mineral</>}
+          title={<><LinkComponent href="https://amzn.to/46c577x" className="text-[#9f55f9] underline transition-all duration-200">Zinc</LinkComponent>: The Foundation Mineral</>}
         >
           <Text>
             <strong>Mechanism:</strong> Zinc is an essential cofactor in testosterone synthesis. Without 

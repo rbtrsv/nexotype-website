@@ -125,7 +125,7 @@ const ImageLeftSection: React.FC<ImageLeftSectionProps> = ({
                 </h2>
 
                 {/* Content */}
-                <div className="text-base leading-relaxed text-zinc-700 dark:text-zinc-300">
+                <div className="max-sm:text-sm sm:text-base leading-relaxed text-zinc-700 dark:text-zinc-300">
                   {children}
                 </div>
               </div>

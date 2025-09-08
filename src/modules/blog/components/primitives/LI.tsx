@@ -6,7 +6,7 @@ interface LIProps {
 }
 
 const LI: React.FC<LIProps> = ({ children, className = '' }) => {
-  return <li className={`mb-2 text-base lg:text-lg ${className}`}>{children}</li>;
+  return <li className={`mb-2 max-sm:text-sm sm:text-base ${className}`}>{children}</li>;
 };
 
 export default LI;

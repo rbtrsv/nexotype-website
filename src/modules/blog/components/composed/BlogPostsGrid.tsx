@@ -35,7 +35,7 @@ const BlogPostCard: React.FC<BlogPost> = ({
               {title}
             </span>
           </h2>
-          <p className="text-base text-zinc-600 dark:text-zinc-400 leading-relaxed line-clamp-3 mb-6">{summary}</p>
+          <p className="max-sm:text-sm sm:text-base text-zinc-600 dark:text-zinc-400 leading-relaxed line-clamp-3 mb-6">{summary}</p>
           
           {/* Categories at bottom */}
           <div className="flex flex-wrap gap-2">

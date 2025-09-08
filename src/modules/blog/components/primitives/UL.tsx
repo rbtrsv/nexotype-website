@@ -6,7 +6,7 @@ interface ULProps {
 }
 
 const UL: React.FC<ULProps> = ({ children, className = '' }) => {
-  return <ul className={`list-disc pl-5 my-4 marker:text-zinc-400 dark:marker:text-zinc-500 text-base lg:text-lg ${className}`}>{children}</ul>;
+  return <ul className={`list-disc pl-5 mb-4 marker:text-zinc-400 dark:marker:text-zinc-500 max-sm:text-sm sm:text-base ${className}`}>{children}</ul>;
 };
 
 export default UL;

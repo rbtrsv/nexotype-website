@@ -27,7 +27,7 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   {
-    title: "6 Supplements Proven to Increase Testosterone",
+    title: "7 Supplements Proven to Increase Testosterone",
     slug: "testosterone-supplements-proven",
     summary: "Evidence-based natural supplements that boost testosterone through specific biological mechanisms, with dosages, research, and where to buy.",
     publishDate: "2025-01-06",

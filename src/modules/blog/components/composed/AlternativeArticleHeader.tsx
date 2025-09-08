@@ -49,13 +49,13 @@ const AlternativeArticleHeader: React.FC<AlternativeArticleHeaderProps> = ({
         <div className={imageUrl ? "lg:col-span-8" : "lg:col-span-12"}>
           <div className="space-y-4">
             {/* Title */}
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-zinc-900 dark:text-zinc-100 tracking-tight">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-zinc-900 dark:text-zinc-100">
               {title}
             </h1>
             
             {/* Subtitle */}
             {subtitle && (
-              <p className="text-lg sm:text-xl text-zinc-600 dark:text-zinc-400 leading-relaxed">
+              <p className="text-lg sm:text-xl text-zinc-600 dark:text-zinc-400">
                 {subtitle}
               </p>
             )}
