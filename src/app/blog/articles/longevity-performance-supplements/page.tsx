@@ -16,6 +16,7 @@ interface SupplementData {
   benefits: string;
   dosage: string;
   link: React.ReactNode;
+  isCategory?: boolean;
 }
 
 const supplementData: SupplementData[] = [
