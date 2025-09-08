@@ -27,7 +27,7 @@ const AlternativeArticleHeader: React.FC<AlternativeArticleHeaderProps> = ({
   className = ''
 }) => {
   return (
-    <div className={`mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mb-12 ${className}`}>
+    <div className={`mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 mb-12 ${className}`}>
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-6 items-start">
         {/* Left side - Image (optional) */}
         {imageUrl && (

@@ -88,7 +88,7 @@ const Table = <T extends TableData>({
             value={globalFilter ?? ''}
             onChange={(e) => setGlobalFilter(e.target.value)}
             placeholder="Search all columns..."
-            className="w-full max-w-sm px-3 py-2 text-base lg:text-lg border border-zinc-300 dark:border-zinc-600 rounded-md bg-white dark:bg-zinc-800 text-zinc-900 dark:text-zinc-100 placeholder-zinc-500 dark:placeholder-zinc-400 focus:ring-2 focus:ring-[#9f55f9] focus:border-transparent"
+            className="w-full max-w-sm px-3 py-2 max-sm:text-sm sm:text-base border border-zinc-300 dark:border-zinc-600 rounded-md bg-white dark:bg-zinc-800 text-zinc-900 dark:text-zinc-100 placeholder-zinc-500 dark:placeholder-zinc-400 focus:ring-2 focus:ring-[#9f55f9] focus:border-transparent"
           />
         </div>
       )}
@@ -130,7 +130,7 @@ const Table = <T extends TableData>({
                 {headerGroup.headers.map((header) => (
                   <th
                     key={header.id}
-                    className="px-4 py-3 text-left text-base lg:text-lg font-medium text-zinc-900 dark:text-zinc-100 tracking-tight"
+                    className="px-4 py-3 text-left max-sm:text-sm sm:text-base font-medium text-zinc-900 dark:text-zinc-100 tracking-tight"
                   >
                     {header.isPlaceholder ? null : (
                       <div
@@ -182,7 +182,7 @@ const Table = <T extends TableData>({
                 {row.getVisibleCells().map((cell) => (
                   <td
                     key={cell.id}
-                    className="px-4 py-3 text-base lg:text-lg text-zinc-700 dark:text-zinc-300 leading-relaxed"
+                    className="px-4 py-3 max-sm:text-sm sm:text-base text-zinc-700 dark:text-zinc-300 leading-relaxed"
                   >
                     {flexRender(
                       cell.column.columnDef.cell,

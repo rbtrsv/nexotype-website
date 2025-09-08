@@ -24,7 +24,7 @@ import { generatePageMetadata } from '@/modules/blog/components/composed/PageSEO
 export const metadata: Metadata = generatePageMetadata({
   title: '7 Supplements Proven to Increase Testosterone',
   description: 'Discover scientifically-backed natural supplements that boost testosterone through specific biological mechanisms. Complete guide with dosages, research, and where to buy.',
-  slug: 'blog/articles/testosterone-supplements-proven',
+  slug: 'blog/articles/testosterone-supplements',
   type: 'article',
   publishDate: '2025-01-06',
   author: 'Nexotype Team',
@@ -268,7 +268,7 @@ export default function TestosteroneSupplementsPage() {
 
           <AffiliateBox 
             href="https://amazon.com/dp/B0BBY9TXSB/ref=nosim?tag=burarotechnol-20"
-            productName="Nutricost Boron 10mg"
+            productName="Boron"
           />
         </ImageLeftSection>
 
@@ -359,7 +359,7 @@ export default function TestosteroneSupplementsPage() {
 
           <AffiliateBox 
             href="https://amazon.com/dp/B000TMJZ4G/ref=nosim?tag=burarotechnol-20"
-            productName="NOW Foods Zinc Picolinate 50mg"
+            productName="Zinc Picolinate"
           />
         </ImageLeftSection>
 

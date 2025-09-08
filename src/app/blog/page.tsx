@@ -27,12 +27,20 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   {
+    title: "Longevity & Performance Supplement List – Independent Analysis & Science Review (2025)",
+    slug: "longevity-performance-supplements",
+    summary: "Evidence-checked, dosage-specific guidance for optimal health and performance, featuring 12 key supplements with research-backed benefits.",
+    publishDate: "2025-01-08",
+    categories: ["Health", "Performance", "Supplements"],
+    href: "/blog/articles/longevity-performance-supplements"
+  },
+  {
     title: "7 Supplements Proven to Increase Testosterone",
-    slug: "testosterone-supplements-proven",
+    slug: "testosterone-supplements",
     summary: "Evidence-based natural supplements that boost testosterone through specific biological mechanisms, with dosages, research, and where to buy.",
     publishDate: "2025-01-06",
     categories: ["Supplements", "Health", "Performance"],
-    href: "/blog/articles/testosterone-supplements-proven"
+    href: "/blog/articles/testosterone-supplements"
   },
   {
     title: "Daily Routine Components Demo",
@@ -41,13 +49,6 @@ const blogPosts: BlogPost[] = [
     publishDate: "2025-01-15",
     categories: ["Lifestyle"],
     href: "/blog/articles/routine-demo"
-  },
-  {
-    title: "The Science of Longevity",
-    slug: "science_of_longevity",
-    summary: "Explore the latest research and practices for extending healthy lifespan, backed by cutting-edge scientific studies and practical applications.",
-    publishDate: "2023-11-01",
-    categories: ["Longevity", "Health"]
   },
   {
     title: "Entrepreneurship Mindset",
