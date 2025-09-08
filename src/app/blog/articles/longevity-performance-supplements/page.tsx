@@ -21,104 +21,127 @@ interface SupplementData {
 
 const supplementData: SupplementData[] = [
   {
-    supplement: 'Foundational Supplements',
+    supplement: 'Essential Stack',
     benefits: '',
     dosage: '',
     link: null,
     isCategory: true
   },
   {
-    supplement: 'Multivitamin (Methylated)',
-    benefits: 'Covers nutrient gaps, methylation support',
-    dosage: '1 serving per label (2–4 caps)',
-    link: <AffiliateBox href="https://amazon.com/dp/B07D52M13T/ref=nosim?tag=burarotechnol-20" productName="Multivitamin" />
+    supplement: 'Creatine',
+    benefits: 'ATP production, neuroprotection, muscle maintenance',
+    dosage: '5g daily',
+    link: <AffiliateBox href="https://amazon.com/dp/B06WVKGGJB/ref=nosim?tag=burarotechnol-20" productName="Creatine" />
   },
   {
     supplement: 'Omega-3 (EPA/DHA)',
-    benefits: 'Anti-inflammatory, heart & brain health',
-    dosage: '2–3g EPA + DHA per day',
-    link: <AffiliateBox href="https://amazon.com/dp/B00CAZAU62/ref=nosim?tag=burarotechnol-20" productName="Omega-3" />
-  },
-  {
-    supplement: 'Vitamin D3 + K2',
-    benefits: 'Immunity, hormone regulation, bone & heart health',
-    dosage: '3000–5000 IU D3 + 90–180µg K2 daily',
-    link: <AffiliateBox href="https://amazon.com/dp/B07B8YN8VB/ref=nosim?tag=burarotechnol-20" productName="Vitamin D3+K2" />
-  },
-  {
-    supplement: 'Creatine Monohydrate',
-    benefits: 'Strength, endurance, ATP production, brain function',
-    dosage: '5g daily pre-workout',
-    link: <AffiliateBox href="https://amazon.com/dp/B002DYIZEO/ref=nosim?tag=burarotechnol-20" productName="Creatine" />
+    benefits: 'Inflammation control, brain health, cardiovascular',
+    dosage: '2–3g EPA + DHA daily',
+    link: <AffiliateBox href="https://amazon.com/dp/B0739KKHWL/ref=nosim?tag=burarotechnol-20" productName="Omega-3" />
   },
   {
     supplement: 'Magnesium Glycinate',
-    benefits: 'Sleep quality, muscle relaxation, testosterone support',
+    benefits: '300+ enzymatic processes, sleep, testosterone',
     dosage: '400–600mg nightly',
-    link: <AffiliateBox href="https://amazon.com/dp/B00C9C2X7Y/ref=nosim?tag=burarotechnol-20" productName="Magnesium Glycinate" />
+    link: <AffiliateBox href="https://amazon.com/dp/B07NWMVMT1/ref=nosim?tag=burarotechnol-20" productName="Magnesium Glycinate" />
   },
   {
-    supplement: 'Performance & Cognitive Enhancement',
-    benefits: '',
-    dosage: '',
-    link: null,
-    isCategory: true
-  },
-  {
-    supplement: 'Alpha-GPC',
-    benefits: 'Focus, acetylcholine production, power output',
-    dosage: '300mg pre-workout',
-    link: <AffiliateBox href="https://amazon.com/dp/B07H4KT7XD/ref=nosim?tag=burarotechnol-20" productName="Alpha-GPC" />
-  },
-  {
-    supplement: 'Lion\'s Mane Mushroom',
-    benefits: 'Neurogenesis, cognitive protection, neural pathways',
-    dosage: '500–1000mg daily',
-    link: <AffiliateBox href="https://amazon.com/dp/B078SJ9F5S/ref=nosim?tag=burarotechnol-20" productName="Lion's Mane" />
-  },
-  {
-    supplement: 'Ashwagandha (KSM-66)',
-    benefits: 'Cortisol reduction, testosterone, stress adaptation',
-    dosage: '600mg daily',
-    link: <AffiliateBox href="https://amazon.com/dp/B0DHWGVVT2/ref=nosim?tag=burarotechnol-20" productName="Ashwagandha" />
-  },
-  {
-    supplement: 'Longevity & Cellular Health',
-    benefits: '',
-    dosage: '',
-    link: null,
-    isCategory: true
-  },
-  {
-    supplement: 'NMN (Nicotinamide Mononucleotide)',
-    benefits: 'NAD+ support, cellular energy, DNA repair',
-    dosage: '250–500mg daily',
-    link: <AffiliateBox href="https://amazon.com/dp/B08Q7BG1VX/ref=nosim?tag=burarotechnol-20" productName="NMN" />
-  },
-  {
-    supplement: 'CoQ10 (Ubiquinol)',
-    benefits: 'Cellular energy, heart health, mitochondrial function',
-    dosage: '100–200mg daily with fat',
-    link: <AffiliateBox href="https://amazon.com/dp/B01A8GGAU6/ref=nosim?tag=burarotechnol-20" productName="CoQ10" />
+    supplement: 'Vitamin D3 + K2',
+    benefits: 'Hormone optimization, bone health, immune function',
+    dosage: '3000–5000 IU D3 + 90–180µg K2 daily',
+    link: <AffiliateBox href="https://amazon.com/dp/B09RG6LXJ2/ref=nosim?tag=burarotechnol-20" productName="Vitamin D3+K2" />
   },
   {
     supplement: 'Berberine',
     benefits: 'AMPK activation, glucose control, longevity pathways',
     dosage: '500mg 2–3 times daily with meals',
-    link: <AffiliateBox href="https://amazon.com/dp/B07L6THBXG/ref=nosim?tag=burarotechnol-20" productName="Berberine" />
+    link: <AffiliateBox href="https://amazon.com/dp/B07PSMZ3J1/ref=nosim?tag=burarotechnol-20" productName="Berberine" />
   },
   {
-    supplement: 'Immune & Hormonal Support',
+    supplement: 'Advanced Optimization',
     benefits: '',
     dosage: '',
     link: null,
     isCategory: true
   },
   {
+    supplement: 'NMN (NAD+ precursor)',
+    benefits: 'DNA repair, cellular energy, multiple aging pathways',
+    dosage: '250–500mg daily',
+    link: <AffiliateBox href="https://amazon.com/dp/B08Q7BG1VX/ref=nosim?tag=burarotechnol-20" productName="NMN" />
+  },
+  {
+    supplement: 'Ashwagandha (KSM-66)',
+    benefits: 'Cortisol reduction, testosterone, stress adaptation',
+    dosage: '600mg daily',
+    link: <AffiliateBox href="https://amazon.com/dp/B0F9N56MST/ref=nosim?tag=burarotechnol-20" productName="Ashwagandha" />
+  },
+  {
+    supplement: 'Ubiquinol (CoQ10)',
+    benefits: 'Mitochondrial function, cardiovascular health',
+    dosage: '100–200mg daily with fat',
+    link: <AffiliateBox href="https://amazon.com/dp/B003PWKVKE/ref=nosim?tag=burarotechnol-20" productName="CoQ10" />
+  },
+  {
+    supplement: 'Alpha-Lipoic Acid',
+    benefits: 'Glucose metabolism, antioxidant recycling',
+    dosage: '300–600mg daily',
+    link: <AffiliateBox href="https://amazon.com/dp/B000I1YJQC/ref=nosim?tag=burarotechnol-20" productName="Alpha-Lipoic Acid" />
+  },
+  {
+    supplement: 'Glycine',
+    benefits: 'Sleep quality, collagen synthesis, glutathione production',
+    dosage: '3g before bed',
+    link: <AffiliateBox href="https://amazon.com/dp/B002J0RHTQ/ref=nosim?tag=burarotechnol-20" productName="Glycine" />
+  },
+  {
+    supplement: 'Melatonin',
+    benefits: 'Sleep-wake cycle regulation, deeper sleep quality',
+    dosage: '2–10mg before bed',
+    link: <AffiliateBox href="https://amazon.com/dp/B00H779MOE/ref=nosim?tag=burarotechnol-20" productName="Melatonin" />
+  },
+  {
+    supplement: 'Targeted Enhancement',
+    benefits: '',
+    dosage: '',
+    link: null,
+    isCategory: true
+  },
+  {
+    supplement: 'Astaxanthin',
+    benefits: 'Powerful antioxidant, skin protection',
+    dosage: '8–12mg daily',
+    link: <AffiliateBox href="https://amazon.com/dp/B097F68J43/ref=nosim?tag=burarotechnol-20" productName="Astaxanthin" />
+  },
+  {
+    supplement: 'PQQ (Pyrroloquinoline Quinone)',
+    benefits: 'Mitochondrial biogenesis, energy levels, cellular vitality',
+    dosage: '20mg daily',
+    link: <AffiliateBox href="https://amazon.com/dp/B07BH4JG35/ref=nosim?tag=burarotechnol-20" productName="PQQ" />
+  },
+  {
     supplement: 'Zinc',
-    benefits: 'Immune strength, testosterone support, tissue repair',
+    benefits: 'Testosterone, immune function, tissue repair',
     dosage: '15–30mg daily (balance with copper)',
-    link: <AffiliateBox href="https://amazon.com/dp/B000TMJZ4G/ref=nosim?tag=burarotechnol-20" productName="Zinc" />
+    link: <AffiliateBox href="https://amazon.com/dp/B07735XF2K/ref=nosim?tag=burarotechnol-20" productName="Zinc" />
+  },
+  {
+    supplement: 'Lion\'s Mane',
+    benefits: 'Neurogenesis, cognitive protection',
+    dosage: '500–1000mg daily (best consumed in morning with coffee)',
+    link: <AffiliateBox href="https://amazon.com/dp/B08JSS48Z7/ref=nosim?tag=burarotechnol-20" productName="Lion's Mane" />
+  },
+  {
+    supplement: 'Tongkat Ali',
+    benefits: 'Testosterone optimization, stress resilience',
+    dosage: '200–400mg daily',
+    link: <AffiliateBox href="https://amazon.com/dp/B00NY30DP2/ref=nosim?tag=burarotechnol-20" productName="Tongkat Ali" />
+  },
+  {
+    supplement: 'Alpha-GPC',
+    benefits: 'Acetylcholine production, focus, power output',
+    dosage: '300mg pre-workout',
+    link: <AffiliateBox href="https://amazon.com/dp/B07H4KT7XD/ref=nosim?tag=burarotechnol-20" productName="Alpha-GPC" />
   }
 ];
 
@@ -220,6 +243,7 @@ export default function LongevityPerformanceSupplementsPage() {
                 className="mt-6"
                 showSorting={true}
                 showFiltering={true}
+                showPagination={false}
               />
             </div>
 

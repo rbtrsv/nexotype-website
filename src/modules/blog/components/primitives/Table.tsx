@@ -170,7 +170,7 @@ const Table = <T extends TableData>({
 
           {/* Table Body */}
           <tbody className="bg-white dark:bg-zinc-900 divide-y divide-zinc-200 dark:divide-zinc-700">
-            {table.getRowModel().rows.map((row, index) => {
+            {(showPagination ? table.getRowModel().rows : table.getFilteredRowModel().rows).map((row, index) => {
               const isCategory = row.original?.isCategory;
               return (
                 <tr
