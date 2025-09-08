@@ -170,15 +170,19 @@ const Table = <T extends TableData>({
 
           {/* Table Body */}
           <tbody className="bg-white dark:bg-zinc-900 divide-y divide-zinc-200 dark:divide-zinc-700">
-            {table.getRowModel().rows.map((row, index) => (
-              <tr
-                key={row.id}
-                className={
-                  index % 2 === 0
-                    ? 'bg-white dark:bg-zinc-900'
-                    : 'bg-zinc-50 dark:bg-zinc-800/50'
-                }
-              >
+            {table.getRowModel().rows.map((row, index) => {
+              const isCategory = row.original?.isCategory;
+              return (
+                <tr
+                  key={row.id}
+                  className={
+                    isCategory
+                      ? 'bg-purple-50 dark:bg-purple-900/10'
+                      : index % 2 === 0
+                        ? 'bg-white dark:bg-zinc-900'
+                        : 'bg-zinc-50 dark:bg-zinc-800/50'
+                  }
+                >
                 {row.getVisibleCells().map((cell) => (
                   <td
                     key={cell.id}
@@ -191,7 +195,8 @@ const Table = <T extends TableData>({
                   </td>
                 ))}
               </tr>
-            ))}
+              );
+            })}
           </tbody>
         </table>
 

@@ -21,6 +21,13 @@ interface SupplementData {
 
 const supplementData: SupplementData[] = [
   {
+    supplement: 'Foundational Supplements',
+    benefits: '',
+    dosage: '',
+    link: null,
+    isCategory: true
+  },
+  {
     supplement: 'Multivitamin (Methylated)',
     benefits: 'Covers nutrient gaps, methylation support',
     dosage: '1 serving per label (2–4 caps)',
@@ -31,12 +38,6 @@ const supplementData: SupplementData[] = [
     benefits: 'Anti-inflammatory, heart & brain health',
     dosage: '2–3g EPA + DHA per day',
     link: <AffiliateBox href="https://amazon.com/dp/B00CAZAU62/ref=nosim?tag=burarotechnol-20" productName="Omega-3" />
-  },
-  {
-    supplement: 'Magnesium Glycinate',
-    benefits: 'Sleep quality, muscle relaxation, testosterone support',
-    dosage: '400–600mg nightly',
-    link: <AffiliateBox href="https://amazon.com/dp/B00C9C2X7Y/ref=nosim?tag=burarotechnol-20" productName="Magnesium Glycinate" />
   },
   {
     supplement: 'Vitamin D3 + K2',
@@ -51,16 +52,17 @@ const supplementData: SupplementData[] = [
     link: <AffiliateBox href="https://amazon.com/dp/B002DYIZEO/ref=nosim?tag=burarotechnol-20" productName="Creatine" />
   },
   {
-    supplement: 'NMN (Nicotinamide Mononucleotide)',
-    benefits: 'NAD+ support, cellular energy, DNA repair',
-    dosage: '250–500mg daily',
-    link: <AffiliateBox href="https://amazon.com/dp/B08Q7BG1VX/ref=nosim?tag=burarotechnol-20" productName="NMN" />
+    supplement: 'Magnesium Glycinate',
+    benefits: 'Sleep quality, muscle relaxation, testosterone support',
+    dosage: '400–600mg nightly',
+    link: <AffiliateBox href="https://amazon.com/dp/B00C9C2X7Y/ref=nosim?tag=burarotechnol-20" productName="Magnesium Glycinate" />
   },
   {
-    supplement: 'Ashwagandha (KSM-66)',
-    benefits: 'Cortisol reduction, testosterone, stress adaptation',
-    dosage: '600mg daily',
-    link: <AffiliateBox href="https://amazon.com/dp/B0DHWGVVT2/ref=nosim?tag=burarotechnol-20" productName="Ashwagandha" />
+    supplement: 'Performance & Cognitive Enhancement',
+    benefits: '',
+    dosage: '',
+    link: null,
+    isCategory: true
   },
   {
     supplement: 'Alpha-GPC',
@@ -75,22 +77,48 @@ const supplementData: SupplementData[] = [
     link: <AffiliateBox href="https://amazon.com/dp/B078SJ9F5S/ref=nosim?tag=burarotechnol-20" productName="Lion's Mane" />
   },
   {
+    supplement: 'Ashwagandha (KSM-66)',
+    benefits: 'Cortisol reduction, testosterone, stress adaptation',
+    dosage: '600mg daily',
+    link: <AffiliateBox href="https://amazon.com/dp/B0DHWGVVT2/ref=nosim?tag=burarotechnol-20" productName="Ashwagandha" />
+  },
+  {
+    supplement: 'Longevity & Cellular Health',
+    benefits: '',
+    dosage: '',
+    link: null,
+    isCategory: true
+  },
+  {
+    supplement: 'NMN (Nicotinamide Mononucleotide)',
+    benefits: 'NAD+ support, cellular energy, DNA repair',
+    dosage: '250–500mg daily',
+    link: <AffiliateBox href="https://amazon.com/dp/B08Q7BG1VX/ref=nosim?tag=burarotechnol-20" productName="NMN" />
+  },
+  {
     supplement: 'CoQ10 (Ubiquinol)',
     benefits: 'Cellular energy, heart health, mitochondrial function',
     dosage: '100–200mg daily with fat',
     link: <AffiliateBox href="https://amazon.com/dp/B01A8GGAU6/ref=nosim?tag=burarotechnol-20" productName="CoQ10" />
   },
   {
-    supplement: 'Zinc',
-    benefits: 'Immune strength, testosterone support, tissue repair',
-    dosage: '15–30mg daily (balance with copper)',
-    link: <AffiliateBox href="https://amazon.com/dp/B000TMJZ4G/ref=nosim?tag=burarotechnol-20" productName="Zinc" />
-  },
-  {
     supplement: 'Berberine',
     benefits: 'AMPK activation, glucose control, longevity pathways',
     dosage: '500mg 2–3 times daily with meals',
     link: <AffiliateBox href="https://amazon.com/dp/B07L6THBXG/ref=nosim?tag=burarotechnol-20" productName="Berberine" />
+  },
+  {
+    supplement: 'Immune & Hormonal Support',
+    benefits: '',
+    dosage: '',
+    link: null,
+    isCategory: true
+  },
+  {
+    supplement: 'Zinc',
+    benefits: 'Immune strength, testosterone support, tissue repair',
+    dosage: '15–30mg daily (balance with copper)',
+    link: <AffiliateBox href="https://amazon.com/dp/B000TMJZ4G/ref=nosim?tag=burarotechnol-20" productName="Zinc" />
   }
 ];
 
@@ -99,31 +127,43 @@ const columnHelper = createColumnHelper<SupplementData>();
 const columns = [
   columnHelper.accessor('supplement', {
     header: 'Supplement',
-    cell: info => (
-      <span className="font-medium text-zinc-900 dark:text-zinc-100">
-        {info.getValue()}
-      </span>
-    )
+    cell: info => {
+      const isCategory = info.row.original.isCategory;
+      return (
+        <span className={isCategory ? "font-semibold text-zinc-900 dark:text-zinc-100" : "font-medium text-zinc-900 dark:text-zinc-100"}>
+          {info.getValue()}
+        </span>
+      );
+    }
   }),
   columnHelper.accessor('benefits', {
     header: 'Benefits (concise)',
-    cell: info => (
-      <span className="text-zinc-700 dark:text-zinc-300">
-        {info.getValue()}
-      </span>
-    )
+    cell: info => {
+      const isCategory = info.row.original.isCategory;
+      return isCategory ? null : (
+        <span className="text-zinc-700 dark:text-zinc-300">
+          {info.getValue()}
+        </span>
+      );
+    }
   }),
   columnHelper.accessor('dosage', {
     header: 'Dosage Guide',
-    cell: info => (
-      <span className="text-zinc-700 dark:text-zinc-300 font-mono text-sm">
-        {info.getValue()}
-      </span>
-    )
+    cell: info => {
+      const isCategory = info.row.original.isCategory;
+      return isCategory ? null : (
+        <span className="text-zinc-700 dark:text-zinc-300 font-mono text-sm">
+          {info.getValue()}
+        </span>
+      );
+    }
   }),
   columnHelper.accessor('link', {
     header: 'Link to buy',
-    cell: info => info.getValue()
+    cell: info => {
+      const isCategory = info.row.original.isCategory;
+      return isCategory ? null : info.getValue();
+    }
   })
 ] as any;
 
