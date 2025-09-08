@@ -18,6 +18,7 @@ import UL from '@/modules/blog/components/primitives/UL';
 import LI from '@/modules/blog/components/primitives/LI';
 import LinkComponent from '@/modules/blog/components/primitives/LinkComponent';
 import Blockquote from '@/modules/blog/components/primitives/Blockquote';
+import AffiliateBox from '@/modules/blog/components/primitives/AffiliateBox';
 import { generatePageMetadata } from '@/modules/blog/components/composed/PageSEO';
 
 export const metadata: Metadata = generatePageMetadata({
@@ -99,6 +100,11 @@ export default function TestosteroneSupplementsPage() {
             compounds. Unlike generic ashwagandha, KSM-66 is specifically standardized for bioactive 
             withanolides that deliver consistent results.
           </Text>
+
+          <AffiliateBox 
+            href="https://amzn.to/4mUKu6V"
+            productName="KSM-66 Ashwagandha"
+          />
         </ImageLeftSection>
 
         <ImageLeftSection
@@ -135,6 +141,10 @@ export default function TestosteroneSupplementsPage() {
             30 when natural testosterone production begins declining.
           </Text>
 
+          <AffiliateBox 
+            href="https://amzn.to/4gaynjn"
+            productName="Tongkat Ali Extract"
+          />
         </ImageLeftSection>
 
         <ImageLeftSection
@@ -173,6 +183,10 @@ export default function TestosteroneSupplementsPage() {
             one of the most direct natural approaches to testosterone optimization.
           </Text>
 
+          <AffiliateBox 
+            href="https://amzn.to/3V99zia"
+            productName="Fadogia Agrestis"
+          />
         </ImageLeftSection>
 
         <ImageLeftSection
@@ -210,6 +224,10 @@ export default function TestosteroneSupplementsPage() {
             concentrations may not provide sufficient prolactin-lowering effects.
           </Text>
 
+          <AffiliateBox 
+            href="https://amzn.to/46fbZRD"
+            productName="Mucuna Pruriens L-DOPA"
+          />
         </ImageLeftSection>
 
         <ImageLeftSection
@@ -248,6 +266,10 @@ export default function TestosteroneSupplementsPage() {
             the optimal testosterone-to-estrogen ratio.
           </Text>
 
+          <AffiliateBox 
+            href="https://amzn.to/4nk8fVx"
+            productName="Boron 10mg Supplement"
+          />
         </ImageLeftSection>
 
         <ImageLeftSection
@@ -293,6 +315,10 @@ export default function TestosteroneSupplementsPage() {
             concentrations of bioactive compounds compared to cheaper alternatives sourced from polluted waters.
           </Text>
 
+          <AffiliateBox 
+            href="https://amzn.to/4maKBdp"
+            productName="NUTREX HAWAII BioAstin"
+          />
         </ImageLeftSection>
 
         <ImageLeftSection
@@ -331,6 +357,10 @@ export default function TestosteroneSupplementsPage() {
             bisglycinate for maximum absorption and minimal digestive upset.
           </Text>
 
+          <AffiliateBox 
+            href="https://amzn.to/46c577x"
+            productName="Zinc Picolinate with Copper"
+          />
         </ImageLeftSection>
 
         <SimpleSection title="Optimal Stacking and Timing Protocol">
