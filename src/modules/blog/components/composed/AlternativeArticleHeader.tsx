@@ -38,7 +38,8 @@ const AlternativeArticleHeader: React.FC<AlternativeArticleHeaderProps> = ({
                 alt={imageAlt || title}
                 width={400}
                 height={400}
-                className="h-full w-full object-cover"
+                className="h-full w-full object-cover pointer-events-none select-none"
+                draggable={false}
                 priority
               />
             </div>

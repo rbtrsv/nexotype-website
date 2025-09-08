@@ -14,7 +14,7 @@ const SimpleSection: React.FC<SimpleSectionProps> = ({
 }) => {
   return (
     <section className={`py-6 sm:py-8 ${className}`}>
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="bg-zinc-50 dark:bg-zinc-900/50 rounded-xl p-6 sm:p-8 border border-zinc-200 dark:border-zinc-700">
           <div className="space-y-4">
             {/* Title */}
