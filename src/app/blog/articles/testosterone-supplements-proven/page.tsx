@@ -74,10 +74,10 @@ export default function TestosteroneSupplementsPage() {
         <ImageLeftSection
           imageUrl={ashwagandhaImage.src}
           imageAlt="Ashwagandha KSM-66 root extract supplement"
-          title={<><LinkComponent href="https://amzn.to/4mUKu6V" className="text-[#9f55f9] underline transition-all duration-200">Ashwagandha KSM-66</LinkComponent>: The Stress-Fighting Testosterone Booster</>}
+          title="Ashwagandha KSM-66: The Stress-Fighting Testosterone Booster"
         >
           <Text>
-            <strong>Mechanism:</strong> Ashwagandha works by reducing cortisol, your primary stress hormone 
+            <LinkComponent href="https://amazon.com/dp/B0DHWGVVT2/ref=nosim?tag=burarotechnol-20" className="text-[#9f55f9] underline transition-all duration-200">Ashwagandha</LinkComponent> works by reducing cortisol, your primary stress hormone 
             that directly suppresses testosterone production. When cortisol levels drop, your body can 
             produce testosterone more efficiently.
           </Text>
@@ -102,7 +102,7 @@ export default function TestosteroneSupplementsPage() {
           </Text>
 
           <AffiliateBox 
-            href="https://amzn.to/4mUKu6V"
+            href="https://amazon.com/dp/B0DHWGVVT2/ref=nosim?tag=burarotechnol-20"
             productName="KSM-66 Ashwagandha"
           />
         </ImageLeftSection>
@@ -110,10 +110,10 @@ export default function TestosteroneSupplementsPage() {
         <ImageLeftSection
           imageUrl={tongkatAliImage.src}
           imageAlt="Tongkat Ali root extract natural testosterone booster"
-          title={<><LinkComponent href="https://amzn.to/4gaynjn" className="text-[#9f55f9] underline transition-all duration-200">Tongkat Ali</LinkComponent>: The Free Testosterone Liberator</>}
+          title="Tongkat Ali: The Free Testosterone Liberator"
         >
           <Text>
-            <strong>Mechanism:</strong> Tongkat Ali works through two pathways: it reduces SHBG (sex hormone 
+            <LinkComponent href="https://amazon.com/dp/B079847BV3/ref=nosim?tag=burarotechnol-20" className="text-[#9f55f9] underline transition-all duration-200">Tongkat Ali</LinkComponent> works through two pathways: it reduces SHBG (sex hormone 
             binding globulin) that binds testosterone, making it unavailable, and stimulates LH (luteinizing 
             hormone) production, which signals your body to produce more testosterone.
           </Text>
@@ -142,7 +142,7 @@ export default function TestosteroneSupplementsPage() {
           </Text>
 
           <AffiliateBox 
-            href="https://amzn.to/4gaynjn"
+            href="https://amazon.com/dp/B079847BV3/ref=nosim?tag=burarotechnol-20"
             productName="Tongkat Ali Extract"
           />
         </ImageLeftSection>
@@ -150,10 +150,10 @@ export default function TestosteroneSupplementsPage() {
         <ImageLeftSection
           imageUrl={fadogiaAgrestisImage.src}
           imageAlt="Fadogia Agrestis stem extract natural testosterone supplement"
-          title={<><LinkComponent href="https://amzn.to/3V99zia" className="text-[#9f55f9] underline transition-all duration-200">Fadogia Agrestis</LinkComponent>: The LH Stimulator</>}
+          title="Fadogia Agrestis: The LH Stimulator"
         >
           <Text>
-            <strong>Mechanism:</strong> Fadogia Agrestis works by directly stimulating luteinizing hormone (LH) production 
+            <LinkComponent href="https://amazon.com/dp/B0C83BH2F2/ref=nosim?tag=burarotechnol-20" className="text-[#9f55f9] underline transition-all duration-200">Fadogia Agrestis</LinkComponent> works by directly stimulating luteinizing hormone (LH) production 
             in the pituitary gland. LH is the signal that tells your testes to produce testosterone, making this 
             a powerful upstream approach to hormone optimization.
           </Text>
@@ -184,7 +184,7 @@ export default function TestosteroneSupplementsPage() {
           </Text>
 
           <AffiliateBox 
-            href="https://amzn.to/3V99zia"
+            href="https://amazon.com/dp/B0C83BH2F2/ref=nosim?tag=burarotechnol-20"
             productName="Fadogia Agrestis"
           />
         </ImageLeftSection>
@@ -192,10 +192,10 @@ export default function TestosteroneSupplementsPage() {
         <ImageLeftSection
           imageUrl={mucunaPruriensImage.src}
           imageAlt="Mucuna Pruriens velvet bean natural L-DOPA supplement"
-          title={<><LinkComponent href="https://amzn.to/46fbZRD" className="text-[#9f55f9] underline transition-all duration-200">Mucuna Pruriens</LinkComponent>: The Prolactin Suppressor</>}
+          title="Mucuna Pruriens: The Prolactin Suppressor"
         >
           <Text>
-            <strong>Mechanism:</strong> Mucuna Pruriens contains natural L-DOPA, which reduces prolactin 
+            <LinkComponent href="https://amazon.com/dp/B085DBY55M/ref=nosim?tag=burarotechnol-20" className="text-[#9f55f9] underline transition-all duration-200">Mucuna Pruriens</LinkComponent> contains natural L-DOPA, which reduces prolactin 
             levels. High prolactin acts like a "brake" on testosterone production, so lowering it allows 
             your natural hormone production to increase.
           </Text>
@@ -225,7 +225,7 @@ export default function TestosteroneSupplementsPage() {
           </Text>
 
           <AffiliateBox 
-            href="https://amzn.to/46fbZRD"
+            href="https://amazon.com/dp/B085DBY55M/ref=nosim?tag=burarotechnol-20"
             productName="Mucuna Pruriens L-DOPA"
           />
         </ImageLeftSection>
@@ -233,10 +233,10 @@ export default function TestosteroneSupplementsPage() {
         <ImageLeftSection
           imageUrl={boronImage.src}
           imageAlt="Boron mineral supplement for testosterone optimization"
-          title={<><LinkComponent href="https://amzn.to/4nk8fVx" className="text-[#9f55f9] underline transition-all duration-200">Boron</LinkComponent>: The Estrogen Blocker</>}
+          title="Boron: The Estrogen Blocker"
         >
           <Text>
-            <strong>Mechanism:</strong> Boron works through two critical pathways: it reduces SHBG (freeing 
+            <LinkComponent href="https://amazon.com/dp/B0BBY9TXSB/ref=nosim?tag=burarotechnol-20" className="text-[#9f55f9] underline transition-all duration-200">Boron</LinkComponent> works through two critical pathways: it reduces SHBG (freeing 
             up bound testosterone) and inhibits aromatase enzyme activity, which prevents testosterone from 
             being converted into estrogen.
           </Text>
@@ -267,18 +267,18 @@ export default function TestosteroneSupplementsPage() {
           </Text>
 
           <AffiliateBox 
-            href="https://amzn.to/4nk8fVx"
-            productName="Boron 10mg Supplement"
+            href="https://amazon.com/dp/B0BBY9TXSB/ref=nosim?tag=burarotechnol-20"
+            productName="Nutricost Boron 10mg"
           />
         </ImageLeftSection>
 
         <ImageLeftSection
           imageUrl={astaxanthinImage.src}
           imageAlt="Astaxanthin red algae antioxidant for Leydig cell protection"
-          title={<><LinkComponent href="https://amzn.to/4maKBdp" className="text-[#9f55f9] underline transition-all duration-200">Astaxanthin</LinkComponent>: The Leydig Cell Protector</>}
+          title="Astaxanthin: The Leydig Cell Protector"
         >
           <Text>
-            <strong>Mechanism:</strong> Astaxanthin is a unique antioxidant that specifically protects 
+            <LinkComponent href="https://amazon.com/dp/B097F68J43/ref=nosim?tag=burarotechnol-20" className="text-[#9f55f9] underline transition-all duration-200">Astaxanthin</LinkComponent> is a unique antioxidant that specifically protects 
             Leydig cells in the testes, which are the cells that actually produce testosterone. It also 
             supports healthy DHT conversion while protecting against oxidative damage.
           </Text>
@@ -309,14 +309,14 @@ export default function TestosteroneSupplementsPage() {
           </Text>
 
           <Text>
-            <strong>Why <LinkComponent href="https://amzn.to/4maKBdp" className="text-[#9f55f9] underline transition-all duration-200">NUTREX HAWAII BioAstin</LinkComponent>:</strong> This Hawaiian-grown astaxanthin is farm-direct 
+            <strong>Why <LinkComponent href="https://amazon.com/dp/B097F68J43/ref=nosim?tag=burarotechnol-20" className="text-[#9f55f9] underline transition-all duration-200">NUTREX HAWAII BioAstin</LinkComponent>:</strong> This Hawaiian-grown astaxanthin is farm-direct 
             from clean Pacific waters, ensuring maximum potency and purity. At 12mg per capsule, it delivers 
             therapeutic doses without synthetic additives. The controlled cultivation process produces higher 
             concentrations of bioactive compounds compared to cheaper alternatives sourced from polluted waters.
           </Text>
 
           <AffiliateBox 
-            href="https://amzn.to/4maKBdp"
+            href="https://amazon.com/dp/B097F68J43/ref=nosim?tag=burarotechnol-20"
             productName="NUTREX HAWAII BioAstin"
           />
         </ImageLeftSection>
@@ -324,10 +324,10 @@ export default function TestosteroneSupplementsPage() {
         <ImageLeftSection
           imageUrl={zincImage.src}
           imageAlt="Zinc mineral supplement essential for testosterone synthesis"
-          title={<><LinkComponent href="https://amzn.to/46c577x" className="text-[#9f55f9] underline transition-all duration-200">Zinc</LinkComponent>: The Foundation Mineral</>}
+          title="Zinc: The Foundation Mineral"
         >
           <Text>
-            <strong>Mechanism:</strong> Zinc is an essential cofactor in testosterone synthesis. Without 
+            <LinkComponent href="https://amazon.com/dp/B000TMJZ4G/ref=nosim?tag=burarotechnol-20" className="text-[#9f55f9] underline transition-all duration-200">Zinc</LinkComponent> is an essential cofactor in testosterone synthesis. Without 
             adequate zinc, your body simply cannot produce testosterone efficiently. It's required for 
             over 300 enzymatic processes involved in hormone production.
           </Text>
@@ -358,8 +358,8 @@ export default function TestosteroneSupplementsPage() {
           </Text>
 
           <AffiliateBox 
-            href="https://amzn.to/46c577x"
-            productName="Zinc Picolinate with Copper"
+            href="https://amazon.com/dp/B000TMJZ4G/ref=nosim?tag=burarotechnol-20"
+            productName="NOW Foods Zinc Picolinate 50mg"
           />
         </ImageLeftSection>
 
