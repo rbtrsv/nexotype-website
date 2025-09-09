@@ -29,7 +29,7 @@ const BlogHeroHeader: React.FC<BlogHeroHeaderProps> = ({
             {/* Stats or highlights */}
             <div className="flex flex-wrap justify-center gap-4 pt-2">
               <div className="text-center">
-                <div className="text-2xl font-bold text-zinc-900 dark:text-zinc-100">3+</div>
+                <div className="text-2xl font-bold text-zinc-900 dark:text-zinc-100">2+</div>
                 <div className="text-sm text-zinc-600 dark:text-zinc-400">Articles</div>
               </div>
               <div className="text-center">
