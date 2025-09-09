@@ -1,5 +1,15 @@
 import '@/modules/main/styles/globals.css';
 import { Analytics } from '@vercel/analytics/next';
+import Favicon from '@/modules/main/public/favicon.ico';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  icons: {
+    icon: Favicon.src,
+    shortcut: Favicon.src,
+    apple: Favicon.src,
+  },
+};
 
 export default function RootLayout({
   children,
