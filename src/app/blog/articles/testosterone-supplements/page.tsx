@@ -46,8 +46,8 @@ export default function TestosteroneSupplementsPage() {
           publishDate="January 6, 2025"
           categories={[
             { label: 'Supplements', variant: 'supplements' },
-            { label: 'Performance', variant: 'performance' },
-            { label: 'Health', variant: 'health' }
+            { label: 'Health', variant: 'health' },
+            { label: 'Performance', variant: 'performance' }
           ]}
         />
 

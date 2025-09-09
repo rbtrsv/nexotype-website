@@ -31,7 +31,7 @@ const blogPosts: BlogPost[] = [
     slug: "longevity-performance-supplements",
     summary: "Evidence-checked, dosage-specific guidance for optimal health and performance, featuring 12 key supplements with research-backed benefits.",
     publishDate: "2025-01-08",
-    categories: ["Health", "Performance", "Supplements"],
+    categories: ["Supplements", "Health", "Performance"],
     href: "/blog/articles/longevity-performance-supplements"
   },
   {
@@ -41,22 +41,6 @@ const blogPosts: BlogPost[] = [
     publishDate: "2025-01-06",
     categories: ["Supplements", "Health", "Performance"],
     href: "/blog/articles/testosterone-supplements"
-  },
-  {
-    title: "Daily Routine Components Demo",
-    slug: "routine-demo", 
-    summary: "Explore our new routine section components with interactive examples and content, inspired by evidence-based optimization strategies.",
-    publishDate: "2025-01-15",
-    categories: ["Lifestyle"],
-    href: "/blog/articles/routine-demo"
-  },
-  {
-    title: "Entrepreneurship Mindset",
-    slug: "entrepreneurship-mindset",
-    summary: "Develop the mental frameworks and habits that successful entrepreneurs use to build thriving businesses and overcome challenges.",
-    publishDate: "2023-10-15",
-    categories: ["Entrepreneurship", "Productivity"],
-    href: "/blog/articles/entrepreneurship-mindset"
   }
 ];
 
