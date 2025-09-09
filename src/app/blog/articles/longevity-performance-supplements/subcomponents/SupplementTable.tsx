@@ -129,7 +129,7 @@ const supplementData: SupplementData[] = [
     supplement: 'Alpha-GPC',
     benefits: 'Acetylcholine production, focus, power output',
     dosage: '300mg pre-workout',
-    link: <AffiliateBox href="https://amazon.com/dp/B07H4KT7XD/ref=nosim?tag=burarotechnol-20" productName="Alpha-GPC" />
+    link: <AffiliateBox href="https://amazon.com/dp/B076XNXLR2/ref=nosim?tag=burarotechnol-20" productName="Alpha-GPC" />
   }
 ];
 
