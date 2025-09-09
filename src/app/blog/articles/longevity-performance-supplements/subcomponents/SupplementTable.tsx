@@ -59,12 +59,6 @@ const supplementData: SupplementData[] = [
     isCategory: true
   },
   {
-    supplement: 'NMN (NAD+ precursor)',
-    benefits: 'DNA repair, cellular energy, multiple aging pathways',
-    dosage: '250–500mg daily',
-    link: <AffiliateBox href="https://amazon.com/dp/B08Q7BG1VX/ref=nosim?tag=burarotechnol-20" productName="NMN" />
-  },
-  {
     supplement: 'Ashwagandha (KSM-66)',
     benefits: 'Cortisol reduction, testosterone, stress adaptation',
     dosage: '600mg daily',
