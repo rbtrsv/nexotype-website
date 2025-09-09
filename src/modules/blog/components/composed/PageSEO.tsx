@@ -19,7 +19,7 @@ interface PageSEOProps {
   noindex?: boolean;
 }
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://www.nexotype.com';
 
 export function generatePageMetadata({
   title,
