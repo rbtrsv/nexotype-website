@@ -29,7 +29,7 @@ const blogPosts: BlogPost[] = [
   {
     title: "Longevity & Performance Supplement List – Independent Analysis & Science Review (2025)",
     slug: "longevity-performance-supplements",
-    summary: "Evidence-checked, dosage-specific guidance for optimal health and performance, featuring 12 key supplements with research-backed benefits.",
+    summary: "Science-backed analysis of 16 supplements for longevity and performance optimization. Includes research-based dosages and explains why we excluded popular compounds like NMN.",
     publishDate: "2025-01-08",
     categories: ["Supplements", "Health", "Performance"],
     href: "/blog/articles/longevity-performance-supplements"
