@@ -13,7 +13,7 @@ import longevitySupplementsImage from './images/Longevity Supplments - Nexotype.
 import { generatePageMetadata } from '@/modules/blog/components/composed/PageSEO';
 
 export const metadata: Metadata = generatePageMetadata({
-  title: 'Longevity & Performance Supplement List – Independent Analysis & Science Review (2025)',
+  title: 'Longevity & Performance Supplement List (2025)',
   description: 'Evidence-checked, dosage-specific guidance for optimal health and performance, featuring 17 key supplements with research-backed benefits and expert recommendations.',
   slug: 'blog/articles/longevity-performance-supplements',
   type: 'article',
